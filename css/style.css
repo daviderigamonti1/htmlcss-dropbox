@@ -52,13 +52,14 @@ a {
     text-decoration: none;
 }
 
-button {
+.button {
     background-color: var(--blue);
     border-style: none;
     color: var(--white);
     padding: 7px 10px;
     font-size: 1em;
 }
+
 /*container*/
 
 .container {
@@ -130,7 +131,7 @@ main {
 }
 
 #jumbotron {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 #jumbotron .container {
@@ -152,6 +153,13 @@ main {
     height: 50%;
 }
 
+main section div div div ul li {
+    padding-top: 40px;
+}
+
+main section div div div ul li i {
+    font-size: 3em;
+}
 /*footer*/
 footer {
     background-color: black;
