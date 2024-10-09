@@ -48,6 +48,17 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--blue);
+    border-style: none;
+    color: var(--white);
+    padding: 7px 10px;
+    font-size: 1em;
+}
 /*container*/
 
 .container {
@@ -101,7 +112,17 @@ header {
     top: 0;
     width: 100%;
     background-color: white;
+    color: var(--dark);
     z-index: 1000;
+    line-height: 35px;
+}
+
+header nav ul li {
+    padding: 18px;
+}
+
+header nav ul li img {
+    padding-top: 6px;
 }
 
 /*main*/
