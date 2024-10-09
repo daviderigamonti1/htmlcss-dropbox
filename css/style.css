@@ -1,0 +1,142 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*customs properties*/
+:root {
+    --light-blue: #b4d0e7;
+    --dark: #000000;
+    --blue: #0061ff;
+    --grey: #f5f5f5;
+    --contrast: #753f63;
+    --white: #ffffff;
+    --logo-green: #a2d39b;
+    --logo-second: #61082b;
+    --logo-third: #0093ce;
+    --logo-light-red: #ff1c1c;
+    --logo-red: #d5001f;
+    --logo-blue: #0d2481;
+    --logo-yellow: #ffd830;
+    --jumbo: #B4D0E7;
+}
+
+/*generals*/
+
+.debug {
+    border: 1px solid red;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+    color: var(--dark);
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/*container*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.container-small {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+/*background*/
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+/*Flex utilities*/
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/*Spacer*/
+.p-20 {
+    padding: 20px;
+}
+
+/*Dimension*/
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+/*header*/
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+/*main*/
+main {
+}
+
+#jumbotron {
+    padding-top: 100px;
+}
+
+#jumbotron .container {
+    position: relative;
+    top: 70px;
+}
+
+#plans {
+    margin-top: 70px;
+}
+
+.customers-brand>div {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.brand {
+    width: 50%;
+    height: 50%;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer nav div ul:first-child {
+    border-bottom: 1px solid var(--white);
+}
