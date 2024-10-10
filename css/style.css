@@ -357,15 +357,10 @@ header nav ul li img {
 }
 
 
-/*.scroll {
+.scroll {
     overflow-y: auto;
     height: 100%;
-}*/
-
-/*main section div div div ul li {
-    padding-top: 40px;
-    padding-left: 25px;
-}*/
+}
 
 .fa-arrow-down {
     font-size: 3em;
