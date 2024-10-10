@@ -52,9 +52,32 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+h5 {
+    font-size: 1em;
+}
+
 hr {
     width: 20%;
 }
+
+.weight {
+    font-weight: 1000;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--dark);
+}
+
+/*button*/
+
 .button {
     background-color: var(--blue);
     border-style: none;
@@ -71,9 +94,14 @@ hr {
     font-size: 1em;
 }
 
-.small {
+.w1-button {
+    background-color: var(--white);
+    color: var(--dark);
     font-size: small;
+    padding: 5px 10px;
 }
+
+/*column*/
 
 .col {
     width: calc((100% - 50px) / 3);
@@ -84,12 +112,15 @@ hr {
     width: calc((100% - 15px) / 3);
 }
 
-h3 {
-    font-size: 2em;
-}
+
+/*text*/
 
 .text-p {
     color: var(--logo-second);
+}
+
+.small {
+    font-size: small;
 }
 
 /*container*/
@@ -189,7 +220,7 @@ h3 {
 }
 
 .p-col {
-    padding: 0 25px 20px 25px;
+    padding: 0 25px 5px 25px;
 }
 
 .p-section3 {
@@ -209,9 +240,6 @@ h3 {
 }
 
 /*Dimension*/
-.w-30 {
-    width: 30%;
-}
 
 .w-70 {
     width: 70%;
@@ -223,6 +251,14 @@ h3 {
 
 .w-40 {
     width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.h-40 {
+    line-height: 40px;
 }
 
 /*header*/
@@ -285,12 +321,20 @@ header nav ul li img {
     filter: invert(100%);
     align-self: center;
 }
+
+/*.scroll {
+    overflow-y: auto;
+    height: 100%;
+}*/
+
 main section div div div ul li {
     padding-top: 40px;
+    padding-left: 25px;
 }
 
 .fa-arrow-down {
     font-size: 3em;
+    color: var(--dark);
 }
 
 /*footer*/
@@ -301,4 +345,12 @@ footer {
 
 footer nav div ul:first-child {
     border-bottom: 1px solid var(--white);
+}
+
+footer nav div ul li {
+    padding-bottom: 10px;
+}
+
+footer nav div ul li:first-child {
+    padding-bottom: 20px;
 }
