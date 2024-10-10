@@ -85,8 +85,11 @@ hr {
 }
 
 h3 {
-    font-size: 3em;
-    padding-bottom: 50px;
+    font-size: 2em;
+}
+
+.text-p {
+    color: var(--logo-second);
 }
 
 /*container*/
@@ -99,7 +102,7 @@ h3 {
 
 .container-small {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 
@@ -169,6 +172,14 @@ h3 {
     padding-top: 50px;
 }
 
+.p-bottom {
+    padding-bottom: 50px;
+}
+
+.p-section {
+    padding-top: 100px;
+}
+
 .p-40 {
     padding: 40px;
 }
@@ -179,6 +190,12 @@ h3 {
 
 .p-col {
     padding: 0 25px 20px 25px;
+}
+
+.p-section4 {
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
 }
 
 /*Dimension*/
@@ -211,8 +228,6 @@ header nav ul li img {
 }
 
 /*main*/
-main {
-}
 
 #jumbotron {
     padding-top: 60px;
