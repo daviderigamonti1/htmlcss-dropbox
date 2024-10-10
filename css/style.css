@@ -73,7 +73,7 @@ hr {
 }
 
 .border-bottom {
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid gray;
 }
 
 /*button*/
@@ -101,11 +101,15 @@ hr {
     padding: 5px 10px;
 }
 
+.border {
+    border: 1px solid lightgray;
+}
+
 /*column*/
 
 .col {
     width: calc((100% - 50px) / 3);
-    border: 1px solid var(--dark);
+    border: 1px solid lightgray;
 }
 
 .col1 {
@@ -194,7 +198,11 @@ hr {
     justify-content: center;
 }
 
+.align-center {
+    align-items: center;
+}
 /*Spacer*/
+
 .p-20 {
     padding: 20px;
 }
@@ -203,10 +211,33 @@ hr {
     padding-top: 50px;
 }
 
+.p-top2 {
+    padding-top: 20px;
+}
+
+.p-top3 {
+    padding-top: 30px;
+}
+
+.m-bottom {
+    margin-bottom: 30px;
+}
+
+.m-top {
+    margin-top: 100px;
+}
+
 .p-bottom {
     padding-bottom: 50px;
 }
 
+.p-bottom-tab {
+    padding-bottom: 15px;
+}
+
+.p-bottom-tab2 {
+    padding-bottom: 30px;
+}
 .p-section {
     padding-top: 100px;
 }
@@ -239,6 +270,9 @@ hr {
     padding-bottom: 30px;
 }
 
+.h200 {
+    height: 200px;
+}
 /*Dimension*/
 
 .w-70 {
@@ -322,15 +356,16 @@ header nav ul li img {
     align-self: center;
 }
 
+
 /*.scroll {
     overflow-y: auto;
     height: 100%;
 }*/
 
-main section div div div ul li {
+/*main section div div div ul li {
     padding-top: 40px;
     padding-left: 25px;
-}
+}*/
 
 .fa-arrow-down {
     font-size: 3em;
