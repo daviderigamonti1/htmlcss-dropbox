@@ -52,12 +52,41 @@ a {
     text-decoration: none;
 }
 
+hr {
+    width: 20%;
+}
 .button {
     background-color: var(--blue);
     border-style: none;
     color: var(--white);
     padding: 7px 10px;
     font-size: 1em;
+}
+
+.w-button {
+    background-color: var(--white);
+    border: 1px solid var(--dark);
+    color: var(--dark);
+    padding: 7px 10px;
+    font-size: 1em;
+}
+
+.small {
+    font-size: small;
+}
+
+.col {
+    width: calc((100% - 50px) / 3);
+    border: 1px solid var(--dark);
+}
+
+.col1 {
+    width: calc((100% - 15px) / 3);
+}
+
+h3 {
+    font-size: 3em;
+    padding-bottom: 50px;
 }
 
 /*container*/
@@ -79,6 +108,37 @@ a {
     background-color: lightblue;
 }
 
+.bg-logo1 {
+    background-color: var(--logo-green);
+}
+
+.bg-logo2 {
+    background-color: var(--logo-second);
+}
+
+.bg-logo3 {
+    background-color: var(--logo-third);
+}
+
+.bg-logo4 {
+    background-color: var(--logo-light-red);
+}
+
+.bg-logo5 {
+    background-color: var(--logo-red);
+}
+
+.bg-logo6 {
+    background-color: var(--light-blue);
+}
+
+.bg-logo7 {
+    background-color: var(--logo-blue);
+}
+
+.bg-logo8 {
+    background-color: var(--logo-yellow);
+}
 /*Flex utilities*/
 .d-flex {
     display: flex;
@@ -92,9 +152,33 @@ a {
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 /*Spacer*/
 .p-20 {
     padding: 20px;
+}
+
+.p-top {
+    padding-top: 50px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.p-left {
+    padding-left: 40px;
+}
+
+.p-col {
+    padding: 0 25px 20px 25px;
 }
 
 /*Dimension*/
@@ -153,13 +237,29 @@ main {
     height: 50%;
 }
 
+.img-brand {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.img-brand2{
+    width: 50%;
+}
+
+.img-brand1 {
+    width: 140px;
+    height: 30px;
+    filter: invert(100%);
+    align-self: center;
+}
 main section div div div ul li {
     padding-top: 40px;
 }
 
-main section div div div ul li i {
+.fa-arrow-down {
     font-size: 3em;
 }
+
 /*footer*/
 footer {
     background-color: black;
